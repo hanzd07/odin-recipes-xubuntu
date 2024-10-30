@@ -1,5 +1,13 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: arial, 'Times New Roman', Times, serif;
+    margin: 1%;
+    background-color: linen;
 }
 
 h1 {
@@ -10,8 +18,10 @@ h1 {
 }
 
 img {
+    display: block;
     height: auto;
-    width: 350px;
+    max-width: 100%;
+    margin: 0% auto;
 }
 
 h2 {
